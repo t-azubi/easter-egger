@@ -1,6 +1,6 @@
 let dago_geldschwein = function () {
 
-    let data = '../pictures/DefensiveUglyAngwantibo.webp'
+    let data = 'https://t-azubi.github.io/easter-egger/pictures/DefensiveUglyAngwantibo.webp'
 
     var shock = document.createElement('div')
     var img = new Image()
@@ -27,7 +27,7 @@ let dago_geldschwein = function () {
 }
 
 let elevate = function () {
-    const music = new Audio('../music/elevator.mp3');
+    const music = new Audio('https://t-azubi.github.io/easter-egger/music/elevator.mp3');
     music.play();
     $("html, body").animate(
         { scrollTop: "0" }, 10000, function () {
